@@ -8,7 +8,7 @@ networks:
     name: dockervlan
     driver: macvlan
     driver_opts:
-      parent: bond0 # using ifconfig or ip a
+      parent: bond0 # using ifconfig or ip a to view interface name
     ipam:
       config:
       - subnet: "192.168.12.0/24"
